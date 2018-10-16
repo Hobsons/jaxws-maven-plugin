@@ -30,7 +30,7 @@
   </parent>
 
   <artifactId>jaxws-maven-plugin</artifactId>
-  <version>2.6-SNAPSHOT</version>
+  <version>2.6.SF</version>
   <packaging>maven-plugin</packaging>
 
   <name>JAX-WS Maven Plugin</name>
@@ -265,6 +265,14 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>ip-10-52-7-78.ec2.internal</id>
+      <name>Starfish Internal Releases</name>
+      <url>https://artifactory01.hobsonshighered.com/artifactory/starfish-core</url>
+    </repository>
+  </distributionManagement>
 
   <reporting>
     <plugins>
