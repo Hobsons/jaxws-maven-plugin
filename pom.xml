@@ -29,6 +29,7 @@
     <version>40</version>
   </parent>
 
+  <groupId>com.starfish.jaxws</groupId>
   <artifactId>jaxws-maven-plugin</artifactId>
   <version>2.6.SF</version>
   <packaging>maven-plugin</packaging>
